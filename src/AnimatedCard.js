@@ -115,9 +115,11 @@ const AnimatedCard = () => {
           <img src={card.image} alt="Card" /> {/* Use selected image */}
         </motion.div>
       ))}
+      
       <button className="button" onClick={handleAnimateFromTopRightToCenter}>Rozdaj z Prawego Górnego na Środek</button>
     </div>
   );
 };
 
 export default AnimatedCard;
+//duh
