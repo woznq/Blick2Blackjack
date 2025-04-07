@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import './AnimatedCard.css'; // Importuj plik CSS
 
 import tenOfClubs from './karty/10_of_clubs.png';
 import tenOfDiamonds from './karty/10_of_diamonds.png';
